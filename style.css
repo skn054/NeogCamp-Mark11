@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+:root {
+    --primary-color: white;
+    --secondary-color: #F9F9F9;
+    --black-color: black;
+    --error-color: red;
+    --button-color: #C67ACE;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--secondary-color);
+}
+
+.heading {
+    text-align: center;
+    border: 4px solid var(--primary-color);
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+input,
+button {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label{
+    text-align: center;
+    display: block;
+    margin: 20px;
+}
+input {
+    width: 400px;
+    height: 45px;
+    /* text-align: center; */
+    margin: 10px auto;
+    display: block;
+    border: 3px solid blueviolet;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+
+
+#output {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    font-weight: 600;
+    border: none;
+    overflow: hidden;
+    text-align: center;
+    resize: none;
+    text-rendering: none;
+}
+
+.output-err {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--error-color);
+    padding: 30px;
+    font-weight: 600;
+    border: none;
+    overflow: hidden;
+    text-align: center;
+    resize: none;
+}
+
+.luck-num-btn {
+    cursor: pointer;
+    display: block;
+    background-color: var(--button-color);
+    width: 100px;
+    height: 50px;
+    border-radius: 10px 5px 10px 5px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+    padding: 5px;
+    display: inline;
+    list-style: none;
+}
+
+small{
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+ul {
+    padding: 3px;
+    display: inline;
+}
+
+#dob{
+    display: block
+}
