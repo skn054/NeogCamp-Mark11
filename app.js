@@ -40,9 +40,9 @@ function checkLuckyNumber() {
   }
 
   if (sum % luckyValue == 0) {
-    output.innerText = "Yeahh!! Your Birthday is LUCKY 🎉🎉";
+    output.innerText = "Yeahh!! Your Birthday is LUCKY 🎉🎉🎉";
   } else {
-    output.innerText = "oops!! Your Birthday is NOT LUCKY 🥴🥴";
+    output.innerText = "oops!! Your Birthday is NOT LUCKY 🥴🥴🥴";
   }
 }
 
