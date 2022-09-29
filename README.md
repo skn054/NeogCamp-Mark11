@@ -1,4 +1,4 @@
-# neoG-markEleven- Is your birthday lucky app
+# NeoG-markEleven- Is your birthday lucky app
 
 Created app to check whether your birthday is lucky or not.
 
